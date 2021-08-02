@@ -1,3 +1,220 @@
-body {
-    background: blue;
-  } 
+
+body { 
+  background-color: rgb(29, 31, 36);
+  color: rgba(255, 255, 255, 0.712);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+#top-container {
+  /* box-shadow: 50px 10px 0px 75px rgb(15, 15, 15); */
+  
+}
+
+
+
+.header-container nav ul {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  top: 15px;
+  padding: 10px; 
+  
+  margin: 0px 500px 20px 20px;
+  line-height: 15px;
+  z-index: 100;
+
+  font-weight: 125;
+}
+
+.subscribe a {
+  color: rgb(245, 231, 231);
+}
+.subscribe {
+  padding: 10px 10px 10px 10px;
+  margin-right: 50px;
+  margin-top: -50px;
+  border: 1px solid;
+  border-radius: 25px;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: all .50s ease;
+  float: right;
+  
+}
+main {
+  
+}
+
+.subscribe:hover {
+  cursor: pointer;
+  border-color: grey;
+}
+
+#Home:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#About:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.social {
+  
+}
+  .social img {
+  
+  position: absolute; 
+  top: 50px; 
+  right: 200px; 
+  width: 15px;
+  
+  
+}
+
+.header-container nav ul li {
+  padding: 10px;
+  cursor: pointer;
+  
+
+}
+
+.left-nav ul {
+  
+}
+
+#Name {
+  font-weight: bold;
+  color: white; 
+}
+
+
+
+main {
+  
+  display: block;
+  padding-top: 100px;
+  margin-top: 10px;
+}
+
+.main-container {
+  
+  
+  align-items: center;
+  width: none;
+  padding: 15px 15px 15px 15px;
+  margin: -100px 25px 10px 25px; 
+  text-decoration-line: ;
+  position: relative; 
+  flex-direction: column;
+}
+
+.profile-pic {
+  padding: 10px 100px 10px 50px;
+  margin: 0px 50px 0px 50px;
+}
+
+.main-container .profile-pic img {
+  border-radius: 100%;
+  border: none;
+  height: 100px;
+  width: 100px;
+  box-shadow: rgb(255 255 255 / 10%) 0 0 0 6px;
+  margin: 10px 25px 25px 25px;
+}
+
+.information {
+  padding: 10px 10px 10px 0px;
+  margin: 0px 150px 0px 125px ; 
+  position: absolute;
+  top: 0;
+  right: 200;
+  padding-left: 50px;
+  
+} 
+
+#who {
+  color: rgb(100, 175, 175);
+}
+
+#more-info {
+  color: rgba(255, 255, 255, 0.658);
+}
+#more-info:hover {
+  cursor: pointer;
+}
+
+.main-content {
+  
+  margin-top: 50px;
+}
+
+.content-left {
+  background-color: white;
+  width: 350px;
+  margin: 0px 0 0 0;
+  padding: 25px 25px 25px 25px;
+  position: fixed;
+  left: 250px;
+  
+}
+
+.content-left img {
+  width: 350px;
+  
+
+}
+
+.content-right {
+  background-color: white;
+  width: 395px;
+  position: fixed;
+  right: 200px; 
+  top: 320px;
+  padding: 25px 25px 25px 25px; 
+  margin: 0 25px 0 25px;
+  
+}
+ 
+.content-right img {
+  width: 400px;
+}
+
+#life {
+  color: White;
+  position: absolute;
+  left: 420px;
+}
+
+#life:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#health {
+  color: white;
+  position: absolute;
+  right: 450px; 
+}
+
+#health:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: grey;
+  position: fixed;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+footer .button {
+  background-color: grey;
+}
